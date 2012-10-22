@@ -80,9 +80,11 @@ if (!function_exists('wow_recruit_widget_install')) {
             'class9' => 'Warrior',
             'class10' => 'Monk',
             'status0' => 'Closed',
-            'status1' => 'Low',
-            'status2' => 'Medium',
-            'status3' => 'High'
+            'status1' => 'Very Low',
+            'status2' => 'Low',
+            'status3' => 'Medium',
+            'status4' => 'High',
+            'status5' => 'Very High'
         );
 
 
@@ -108,7 +110,9 @@ $wr_status = array(
     '0' => $wr_options['status0'],
     '1' => $wr_options['status1'],
     '2' => $wr_options['status2'],
-    '3' => $wr_options['status3']
+    '3' => $wr_options['status3'],
+    '4' => $wr_options['status4'],
+    '5' => $wr_options['status5']
 );
 
 $wr_class = array(
