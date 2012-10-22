@@ -70,13 +70,19 @@ ZnJhbWU+DQo=');
                 <tr valign="top">
                     <td><h3>Status Texts</h3></td>
                 </tr>
+                <tr valign="top"><th scope="row">Very High</th>
+                    <td><input type="text" name="wow_recruit[status5]" value="<?php echo $options['status5']; ?>" /></td>
+                </tr>
                 <tr valign="top"><th scope="row">High</th>
-                    <td><input type="text" name="wow_recruit[status3]" value="<?php echo $options['status3']; ?>" /></td>
+                    <td><input type="text" name="wow_recruit[status4]" value="<?php echo $options['status4']; ?>" /></td>
                 </tr>
                 <tr valign="top"><th scope="row">Medium</th>
-                    <td><input type="text" name="wow_recruit[status2]" value="<?php echo $options['status2']; ?>" /></td>
+                    <td><input type="text" name="wow_recruit[status3]" value="<?php echo $options['status3']; ?>" /></td>
                 </tr>
                 <tr valign="top"><th scope="row">Low</th>
+                    <td><input type="text" name="wow_recruit[status2]" value="<?php echo $options['status2']; ?>" /></td>
+                </tr>
+    			<tr valign="top"><th scope="row">Very Low</th>
                     <td><input type="text" name="wow_recruit[status1]" value="<?php echo $options['status1']; ?>" /></td>
                 </tr>
                 <tr valign="top"><th scope="row">Closed (display? <input name="wow_recruit[display_closed]" type="checkbox" value="1"
